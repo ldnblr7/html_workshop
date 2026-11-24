@@ -1,0 +1,87 @@
+    h1 {
+        display: inline-block;
+        font-size: 16pt;
+        white-space: nowrap;
+        padding: 8px 12px;
+        border: 2px solid #333;
+        border-radius: 15px;
+        background-color: gray;
+        color: #222;
+        font-family: "Old English Text MT", serif;
+        margin: 20px 40px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    h2 {
+        text-decoration: underline;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 2vw
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid #333;
+        border-radius: 15px;
+    }
+
+    body {
+        margin: 0 40px;
+    }
+
+    .person {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+
+    .person img {
+        width: 80px;
+        flex-shrink: 0;
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    .text {
+        border: 2px solid #333;
+        border-radius: 15px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid black;
+        width: 20%;
+        padding: 15px;
+    }
+
+    body {
+        display: flex;
+    }
+
+    .menu-rule {
+        border: none;
+        border-top: 2px solid black;
+        margin: 6px 0 12px 0;
+    }
+
+    a {
+        border: 4px outset black;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5vw;
+    }
