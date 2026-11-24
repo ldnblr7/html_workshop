@@ -1,6 +1,6 @@
     h1 {
         display: inline-block;
-        font-size: 16pt;
+        font-size: 4vw;
         white-space: nowrap;
         padding: 8px 12px;
         border: 2px solid #333;
@@ -11,20 +11,31 @@
         margin: 20px 40px;
     }
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
 
     h2 {
         text-decoration: underline;
         font-size: 2vw;
-        text-align: center;
     }
 
     h3 {
         font-size: 2vw
+    }
+
+    body {
+
+        display: flex;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .container_v2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     img {
@@ -32,10 +43,6 @@
         height: auto;
         border: 2px solid #333;
         border-radius: 15px;
-    }
-
-    body {
-        margin: 0 40px;
     }
 
     .person {
@@ -50,33 +57,16 @@
         flex-shrink: 0;
     }
 
-    .centered {
+    .timeline {
         text-align: center;
     }
 
-    .text {
-        border: 2px solid #333;
-        border-radius: 15px;
-        padding: 0 10px;
-        text-align: justify;
-    }
-
     .sidebar {
+        border-left: 2px solid black;
         display: flex;
         flex-direction: column;
-        border-left: 2px solid black;
         width: 20%;
         padding: 15px;
-    }
-
-    body {
-        display: flex;
-    }
-
-    .menu-rule {
-        border: none;
-        border-top: 2px solid black;
-        margin: 6px 0 12px 0;
     }
 
     a {
